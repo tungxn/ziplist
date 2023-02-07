@@ -11,6 +11,6 @@ function zipList(arr1, arr2) {
 console.log(zipList(array1, array2));
 
 function zipListTheSimpleWay(arr1, arr2) {
-  return _.flatten(_.zip(arr1,arr2));
+  return _.flatten(_.zip(arr1, arr2));
 }
 console.log(zipListTheSimpleWay(array1, array2));
